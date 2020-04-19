@@ -30,6 +30,7 @@ function Routes() {
 
         <Route path="/gear" component={Gear} />
         <Route path="/tabs" exact component={AllTabs} />
+        <Route exact path="/" render={() => <Redirect to="/tabs" />} />
         <Route path="/tabs/:instrument/:author/:song/:id" component={SongTab} />
         <Route path="/search" component={SearchTab} />
       </Switch>
