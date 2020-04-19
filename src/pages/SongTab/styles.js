@@ -32,6 +32,10 @@ export const Content = styled.div`
 
   @media (max-width: 1366px) {
     flex-direction: column;
+
+    p {
+      font-size: 16px;
+    }
   }
 `;
 
@@ -62,6 +66,10 @@ export const InfoFile = styled.a`
     background-color: #7452a3;
     color: #000;
   }
+
+  @media (max-width: 1366px) {
+    font-size: 16px;
+  }
 `;
 
 export const InfoSong = styled.div`
@@ -81,7 +89,7 @@ export const YoutubePlayer = styled(Youtube)`
   height: 360px;
 
   @media (max-width: 768px) {
-    width: 427px;
-    height: 240px;
+    width: 100%;
+    height: 100%;
   }
 `;
