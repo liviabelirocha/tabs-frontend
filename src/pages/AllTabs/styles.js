@@ -39,4 +39,8 @@ export const Song = styled.div`
   align-items: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+
+  div {
+    margin-left: 8px;
+  }
 `;

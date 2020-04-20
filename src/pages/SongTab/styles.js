@@ -22,16 +22,19 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 
   p {
     padding: 8px;
     font-size: 24px;
     border-bottom: 1px solid #000;
     font-weight: bold;
+    display: inline;
   }
 
   @media (max-width: 1366px) {
     flex-direction: column;
+    padding: 24px;
 
     p {
       font-size: 16px;
@@ -61,6 +64,8 @@ export const InfoFile = styled.a`
   font-weight: bold;
   transition: 0.2s;
   text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
 
   :hover {
     background-color: #7452a3;
@@ -88,7 +93,7 @@ export const YoutubePlayer = styled(Youtube)`
   width: 640px;
   height: 360px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1366px) {
     width: 100%;
     height: 100%;
   }

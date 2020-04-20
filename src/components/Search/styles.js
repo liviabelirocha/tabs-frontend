@@ -7,11 +7,16 @@ export const Container = styled.form`
   input {
     height: 36px;
     margin-right: 8px;
+    border-radius: 0;
+    transition: 0.1s;
+  }
+
+  input:focus {
+    border: 2px solid #7eff4f;
   }
 
   button {
     border: none;
-    border-radius: 8px;
     width: 92px;
     height: 36px;
     transition: 0.2s;
@@ -19,6 +24,6 @@ export const Container = styled.form`
   }
 
   button:hover {
-    border: 3px solid #7eff4f;
+    border: 2px solid #7eff4f;
   }
 `;
