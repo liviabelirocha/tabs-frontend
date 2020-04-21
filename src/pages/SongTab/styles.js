@@ -45,8 +45,10 @@ export const Content = styled.div`
 export const Info = styled.div`
   display: flex;
   flex-direction: column;
-  margin-right: 36px;
+  justify-content: space-around;
   align-items: center;
+  width: 100%;
+  margin-bottom: 16px;
 `;
 
 export const InfoFile = styled.a`
@@ -96,5 +98,12 @@ export const YoutubePlayer = styled(Youtube)`
   @media (max-width: 1366px) {
     width: 100%;
     height: 100%;
+  }
+`;
+
+export const Player = styled.div`
+  p {
+    margin-top: 8px;
+    border-bottom: 0;
   }
 `;

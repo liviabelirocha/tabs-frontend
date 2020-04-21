@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import { Container, StyledLink, Bars } from "./styles";
 
+import logo from "../../assets/logo2.png";
+
 import Search from "../Search";
 
 function Navbar() {
@@ -12,9 +14,13 @@ function Navbar() {
       <Bars onClick={() => setActive(!active)} active={active} />
       <Container active={active}>
         <ul>
-          <li>WHEAT TABS</li>
           <li>
-            <StyledLink to="/tabs">TABS</StyledLink>
+            <StyledLink to="/">
+              <img src={logo} alt="wheat tabs" />
+            </StyledLink>
+          </li>
+          <li>
+            <StyledLink to="/">TABS</StyledLink>
           </li>
           <li>
             <StyledLink to="/gear">GEAR</StyledLink>

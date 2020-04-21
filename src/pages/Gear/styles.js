@@ -21,6 +21,7 @@ export const Content = styled.div`
   grid-template-columns: repeat(3, 1fr);
 
   @media (max-width: 1366px) {
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
   }
 `;

@@ -9,6 +9,7 @@ import {
   Info,
   InfoFile,
   InfoSong,
+  Player,
 } from "./styles";
 
 import api from "../../services/api";
@@ -44,10 +45,10 @@ function AllTabs(props) {
               DOWNLOAD THE TAB
             </InfoFile>
           </Info>
-          <div>
+          <Player>
             <p>Check out the cover on Youtube!</p>
             <YoutubePlayer videoId={song.youtubeURL} />
-          </div>
+          </Player>
         </Content>
       </Container>
       <Footer />

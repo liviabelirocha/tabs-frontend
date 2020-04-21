@@ -10,7 +10,7 @@ function Footer() {
         <ul>
           <li>
             <a
-              href="http://shorturl.at/cyACX"
+              href="https://github.com/liviabelirocha"
               target="_blank"
               rel="noopener noreferrer"
             >

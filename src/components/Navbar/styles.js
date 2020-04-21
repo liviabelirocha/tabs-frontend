@@ -49,6 +49,10 @@ export const StyledLink = styled(Link)`
     color: #7eff4f;
     border-bottom: 1px solid #7eff4f;
   }
+
+  img {
+    height: 3rem;
+  }
 `;
 
 export const Bars = styled(FaBars)`
