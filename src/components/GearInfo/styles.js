@@ -24,10 +24,16 @@ export const Container = styled.div`
   img {
     height: auto;
     width: auto;
-    max-width: 300px;
-    max-height: 600px;
+    max-width: 100%;
+    max-height: 100%;
     margin-top: 15px;
     align-self: center;
     user-select: none;
+  }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 16px;
+    }
   }
 `;
