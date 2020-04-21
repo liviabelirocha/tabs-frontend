@@ -35,6 +35,7 @@ export const Content = styled.div`
   @media (max-width: 1366px) {
     flex-direction: column;
     padding: 24px;
+    width: 90%;
 
     p {
       font-size: 16px;
@@ -49,6 +50,7 @@ export const Info = styled.div`
   align-items: center;
   width: 100%;
   margin-bottom: 16px;
+  margin-right: 32px;
 `;
 
 export const InfoFile = styled.a`
@@ -89,6 +91,10 @@ export const InfoSong = styled.div`
   padding: 8px;
   font-size: 24px;
   text-align: center;
+
+  @media (max-width: 1366px) {
+    font-size: 16px;
+  }
 `;
 
 export const YoutubePlayer = styled(Youtube)`
