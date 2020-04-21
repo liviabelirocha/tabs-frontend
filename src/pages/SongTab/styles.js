@@ -51,6 +51,10 @@ export const Info = styled.div`
   width: 100%;
   margin-bottom: 16px;
   margin-right: 32px;
+
+  @media (max-width: 1366px) {
+    margin-right: 0;
+  }
 `;
 
 export const InfoFile = styled.a`
